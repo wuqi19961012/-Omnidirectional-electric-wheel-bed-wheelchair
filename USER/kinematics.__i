@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\PWM -I..\SYSTEM\pid -I..\HARDWARE\lcd12864 -I..\HARDWARE\DAC -I..\HARDWARE\EXTI -I..\HARDWARE\KEY -I..\SYSTEM\kinematics 
+-I F:\keil4\ARM\RV31\INC 
+-I F:\keil4\ARM\CMSIS\Include 
+-I F:\keil4\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "kinematics.o" --omf_browse "kinematics.crf" --depend "kinematics.d" "..\SYSTEM\kinematics\kinematics.c"
